@@ -8,14 +8,23 @@ namespace EjercicioSumaAdd.Servicios
 {
     internal class OperacionesImplementacion : OperacionesInterfaz
     {
-        public double hacerCalculo(double numeroD);
-      
-         
-            for(i= 0; i< numeroD, int ++ ){
-                   numeroD = numeroD * numeroD
+        public void hacerCalculo (double numeroD, int numeroE)
+        {
+            double aux = 1;
+            for (int i = 0; i < numeroE; i++)
+            {
+                aux = aux * numeroD;
+                
+            }
+            Console.WriteLine(aux);
 
+
+        }
+         
+            
+            
     }
     
-    Console.Weiteline(numeroD)
+    C
     
 }

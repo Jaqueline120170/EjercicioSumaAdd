@@ -15,8 +15,14 @@ namespace EjercicioSumaAdd.Controladores
             double numeroD;
             numeroD = mi.PedirNumeroDouble();
 
+            double aux = oi.hacerCalculo(int numeroE);
+           
 
-         
+
+
+
+
+
 
         }
     }
