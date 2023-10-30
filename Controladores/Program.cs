@@ -9,14 +9,16 @@ namespace EjercicioSumaAdd.Controladores
             MenuInterfaz mi = new MenuImplementacion();
             OperacionesInterfaz oi = new OperacionesImplementacion();
 
+
             int numeroE;
             numeroE = mi.PedirNumeroEntero();
 
             double numeroD;
             numeroD = mi.PedirNumeroDouble();
 
-            double aux = oi.hacerCalculo(int numeroE);
-           
+            double aux = oi.hacerCalculo;
+
+
 
 
 
