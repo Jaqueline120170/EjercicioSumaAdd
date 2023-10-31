@@ -11,12 +11,12 @@ namespace EjercicioSumaAdd.Controladores
 
 
             int numeroE;
-            numeroE = mi.PedirNumeroEntero();
+            numeroE = mi.pedirNumeroEntero();
 
             double numeroD;
-            numeroD = mi.PedirNumeroDouble();
+            numeroD = mi.pedirNumeroDouble();
 
-            double aux = oi.hacerCalculo;
+            double aux = oi.hacerCalculo(numeroD, numeroE);
 
 
 

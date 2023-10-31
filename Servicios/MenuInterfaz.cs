@@ -9,9 +9,9 @@ namespace EjercicioSumaAdd.Servicios
     internal interface MenuInterfaz
     {
         public int pedirNumeroEntero();
-        int PedirNumeroEntero();
+       
 
         public double pedirNumeroDouble();
-        double PedirNumeroDouble();
+       
     }
 }

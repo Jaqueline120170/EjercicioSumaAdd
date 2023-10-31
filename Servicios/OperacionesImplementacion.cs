@@ -8,7 +8,7 @@ namespace EjercicioSumaAdd.Servicios
 {
     internal class OperacionesImplementacion : OperacionesInterfaz
     {
-        public void hacerCalculo (double numeroD, int numeroE)
+        public double hacerCalculo (double numeroD, int numeroE)
         {
             double aux = 1;
             for (int i = 0; i < numeroE; i++)
@@ -18,7 +18,7 @@ namespace EjercicioSumaAdd.Servicios
             }
             Console.WriteLine(aux);
 
-
+            return aux;
         }
          
             

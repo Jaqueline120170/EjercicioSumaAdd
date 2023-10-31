@@ -8,7 +8,7 @@ namespace EjercicioSumaAdd.Servicios
 {
     internal interface OperacionesInterfaz
     {
-        public void hacerCalculo(double numeroD, int numeroE);
+        public double hacerCalculo(double numeroD, int numeroE);
 
     }
 }
